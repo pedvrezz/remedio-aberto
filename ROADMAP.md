@@ -1,5 +1,9 @@
 # Roadmap
 
+## Milestone estrutural — histórico técnico sustentável
+
+O projeto deve atingir pelo menos 500 commits legítimos e preservados em `main` por meio da execução do roadmap real. Marcos: 50, 100, 200, 300, 400 e 500 commits. A contagem é secundária à segurança e qualidade: commits vazios, churn, fragmentação artificial e mudanças sem valor continuam proibidos. O Kanban deve manter unidades técnicas coesas e usar merge que preserve commits legítimos quando seguro.
+
 ## Fase 0 — fundação local
 
 - Monorepo mínimo com web e API.

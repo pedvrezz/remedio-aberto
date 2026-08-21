@@ -3,9 +3,11 @@
 - Atualizado em: 2026-08-21 UTC
 - Schema persistido: 1 (inalterado)
 - Ciclos autônomos concluídos: 2
+- Automação persistente: board Hermes `remedio-aberto`, dispatcher no Gateway user-scoped
+- Progresso do milestone Git: 10/500 commits em `main`; próximo marco 50
 - Branch: `main`
-- HEAD funcional: `a6601ae` (`feat: analyze ANVISA snapshot quality`)
-- Árvore esperada: alterações apenas deste registro de estado/log até o próximo commit
+- HEAD antes desta configuração: `193706b` (`docs: record autonomous cycles`)
+- Árvore atual: configuração persistente do Kanban sendo documentada
 
 ## Última tarefa concluída
 
