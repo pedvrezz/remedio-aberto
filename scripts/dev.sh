@@ -37,4 +37,11 @@ printf '%s\n' "$WEB_PID" > "$PID_DIR/web.pid"
 
 echo "Web: http://127.0.0.1:3000"
 echo "API: http://127.0.0.1:8000/docs"
-wait -n "$API_PID" "$WEB_PID"
+status=0
+wait -n "$API_PID" "$WEB_PID" || status=$?
+
+# SIGINT/SIGTERM are expected when `make stop` or Ctrl+C performs a clean shutdown.
+if [[ "$status" -eq 130 || "$status" -eq 143 ]]; then
+  exit 0
+fi
+exit "$status"
