@@ -253,25 +253,23 @@ Como o projeto é **local-first**, "deploy" significa atualmente:
 
 ---
 
-## 13. Execução Contínua (Mecanismos Oficiais Verificados)
+## 13. Execução Contínua (Kanban e Gateway)
 
-A documentação oficial e o `hermes --help` local confirmam três mecanismos relevantes:
+A execução persistente autorizada usa exclusivamente os mecanismos oficiais locais:
 
-- `hermes -z/--oneshot`: executa uma solicitação única, carregando `AGENTS.md` e as regras do projeto;
-- `hermes cron`: agenda execuções duráveis e oferece `list`, `create`, `pause`, `resume`, `run`, `remove`, `status`, `runs` e `tick`;
-- `hermes kanban`: fila durável multiagente, inadequada enquanto houver apenas um fluxo serial neste projeto.
+- board isolado `remedio-aberto`, vinculado ao projeto/worktree correspondente;
+- Gateway como serviço de usuário, sem sudo;
+- dispatcher incorporado ao Gateway (`dispatch_in_gateway: true`), nunca em paralelo com o daemon Kanban depreciado;
+- root `t_0720d5ed`, idempotency key `remedio-aberto-autonomous-root-v1`, criado em `triage` e convertido oficialmente em orquestração `todo` após decomposição;
+- concorrência global e por profile igual a 1, `max_spawn: 1`, circuit breaker 2 e intervalo de 60 segundos;
+- auto-decompose limitado a uma raiz por tick e janela conservadora de trabalho;
+- worktrees independentes para implementação.
 
-Referência oficial: <https://hermes-agent.nousresearch.com/docs/user-guide/features/cron>.
+O root é um objetivo permanente: depois de cada grafo, deve reavaliar as fontes de verdade e reabastecer o pipeline apenas com trabalho real. Não deve concluir por um lote isolado nem fabricar trabalho para a meta de 500 commits. Hard stops bloqueiam somente o card dependente. Se apenas trabalho artificial restar, o root deve ser bloqueado com explicação objetiva.
 
-O cron oficial possui lock de tick e execuções isoladas, mas cada execução de agente tem limite rígido documentado de três minutos. Esse limite não comporta com segurança o ciclo completo deste projeto (`make check`, push e espera da CI). Portanto:
+`hermes cron` não executa ciclos completos de desenvolvimento. Só poderá ser considerado futuramente para verificações curtas e naturalmente periódicas explicitamente previstas no roadmap.
 
-- **não** criar daemon, loop recursivo ou cron de escrita no repositório;
-- usar ciclos discretos nesta sessão enquanto houver tempo e contexto;
-- em sessões futuras, retomar pelo `STATE.md` com uma invocação oficial explícita, por exemplo `hermes -z "Leia AUTOPILOT.md e STATE.md e execute um único ciclo seguro"` a partir da raiz;
-- não fornecer `--yolo` em wrappers ou automações;
-- não instalar o gateway nem alterar configuração global sem autorização humana específica.
-
-Um eventual `make autopilot` só poderá ser criado em tarefa própria, com testes, lockfile, limite de falhas, tratamento de SIGINT/SIGTERM e `make autopilot-stop`. Ele deverá executar **um ciclo discreto por invocação**, nunca manter processo infinito.
+Referência oficial: <https://hermes-agent.nousresearch.com/docs/user-guide/features/kanban>.
 
 ---
 

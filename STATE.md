@@ -4,10 +4,11 @@
 - Schema persistido: 1 (inalterado)
 - Ciclos autônomos concluídos: 2
 - Automação persistente: board Hermes `remedio-aberto`, dispatcher no Gateway user-scoped
-- Progresso do milestone Git: 10/500 commits em `main`; próximo marco 50
+- Root permanente: `t_0720d5ed` (`remedio-aberto-autonomous-root-v1`), orchestration `todo` aguardando filhos
+- Progresso do milestone Git: 11/500 commits em `main`; próximo marco 50
 - Branch: `main`
-- HEAD antes desta configuração: `193706b` (`docs: record autonomous cycles`)
-- Árvore atual: configuração persistente do Kanban sendo documentada
+- HEAD antes deste registro: `729a0f6` (`chore: configure persistent Kanban workflow`)
+- Árvore atual: registro durável do root de orquestração
 
 ## Última tarefa concluída
 
