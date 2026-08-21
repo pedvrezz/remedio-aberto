@@ -1,0 +1,214 @@
+# Backlog
+
+Este backlog é local e não cria issues remotas. Itens só devem virar trabalho quando houver um recorte verificável.
+
+- [ ] `RA-001` [data-sources] Validar critérios de aceite para data sources antes da implementação.
+- [ ] `RA-002` [ingestion] Validar integridade de provenance para ingestion antes da implementação.
+- [ ] `RA-003` [parsers] Validar contratos versionados para parsers antes da implementação.
+- [ ] `RA-004` [data-quality] Validar casos de erro para data quality antes da implementação.
+- [ ] `RA-005` [database] Validar mensagens em PT-BR para database antes da implementação.
+- [ ] `RA-006` [search] Validar comportamento offline para search antes da implementação.
+- [ ] `RA-007` [api] Validar limites operacionais para api antes da implementação.
+- [ ] `RA-008` [frontend] Validar compatibilidade multiplataforma para frontend antes da implementação.
+- [ ] `RA-009` [history] Validar estratégia de rollback para history antes da implementação.
+- [ ] `RA-010` [analytics] Validar fixtures públicas mínimas para analytics antes da implementação.
+- [ ] `RA-011` [security] Validar critérios de aceite para security antes da implementação.
+- [ ] `RA-012` [observability] Validar integridade de provenance para observability antes da implementação.
+- [ ] `RA-013` [testing] Validar contratos versionados para testing antes da implementação.
+- [ ] `RA-014` [performance] Validar casos de erro para performance antes da implementação.
+- [ ] `RA-015` [accessibility] Validar mensagens em PT-BR para accessibility antes da implementação.
+- [ ] `RA-016` [documentation] Validar comportamento offline para documentation antes da implementação.
+- [ ] `RA-017` [sdk] Validar limites operacionais para sdk antes da implementação.
+- [ ] `RA-018` [cli] Validar compatibilidade multiplataforma para cli antes da implementação.
+- [ ] `RA-019` [desktop] Validar estratégia de rollback para desktop antes da implementação.
+- [ ] `RA-020` [developer-experience] Validar fixtures públicas mínimas para developer experience antes da implementação.
+- [ ] `RA-021` [infrastructure] Validar critérios de aceite para infrastructure antes da implementação.
+- [ ] `RA-022` [data-sources] Documentar integridade de provenance para data sources antes da implementação.
+- [ ] `RA-023` [ingestion] Documentar contratos versionados para ingestion antes da implementação.
+- [ ] `RA-024` [parsers] Documentar casos de erro para parsers antes da implementação.
+- [ ] `RA-025` [data-quality] Documentar mensagens em PT-BR para data quality antes da implementação.
+- [ ] `RA-026` [database] Documentar comportamento offline para database antes da implementação.
+- [ ] `RA-027` [search] Documentar limites operacionais para search antes da implementação.
+- [ ] `RA-028` [api] Documentar compatibilidade multiplataforma para api antes da implementação.
+- [ ] `RA-029` [frontend] Documentar estratégia de rollback para frontend antes da implementação.
+- [ ] `RA-030` [history] Documentar fixtures públicas mínimas para history antes da implementação.
+- [ ] `RA-031` [analytics] Documentar critérios de aceite para analytics antes da implementação.
+- [ ] `RA-032` [security] Documentar integridade de provenance para security antes da implementação.
+- [ ] `RA-033` [observability] Documentar contratos versionados para observability antes da implementação.
+- [ ] `RA-034` [testing] Documentar casos de erro para testing antes da implementação.
+- [ ] `RA-035` [performance] Documentar mensagens em PT-BR para performance antes da implementação.
+- [ ] `RA-036` [accessibility] Documentar comportamento offline para accessibility antes da implementação.
+- [ ] `RA-037` [documentation] Documentar limites operacionais para documentation antes da implementação.
+- [ ] `RA-038` [sdk] Documentar compatibilidade multiplataforma para sdk antes da implementação.
+- [ ] `RA-039` [cli] Documentar estratégia de rollback para cli antes da implementação.
+- [ ] `RA-040` [desktop] Documentar fixtures públicas mínimas para desktop antes da implementação.
+- [ ] `RA-041` [developer-experience] Documentar critérios de aceite para developer experience antes da implementação.
+- [ ] `RA-042` [infrastructure] Documentar integridade de provenance para infrastructure antes da implementação.
+- [ ] `RA-043` [data-sources] Testar contratos versionados para data sources antes da implementação.
+- [ ] `RA-044` [ingestion] Testar casos de erro para ingestion antes da implementação.
+- [ ] `RA-045` [parsers] Testar mensagens em PT-BR para parsers antes da implementação.
+- [ ] `RA-046` [data-quality] Testar comportamento offline para data quality antes da implementação.
+- [ ] `RA-047` [database] Testar limites operacionais para database antes da implementação.
+- [ ] `RA-048` [search] Testar compatibilidade multiplataforma para search antes da implementação.
+- [ ] `RA-049` [api] Testar estratégia de rollback para api antes da implementação.
+- [ ] `RA-050` [frontend] Testar fixtures públicas mínimas para frontend antes da implementação.
+- [ ] `RA-051` [history] Testar critérios de aceite para history antes da implementação.
+- [ ] `RA-052` [analytics] Testar integridade de provenance para analytics antes da implementação.
+- [ ] `RA-053` [security] Testar contratos versionados para security antes da implementação.
+- [ ] `RA-054` [observability] Testar casos de erro para observability antes da implementação.
+- [ ] `RA-055` [testing] Testar mensagens em PT-BR para testing antes da implementação.
+- [ ] `RA-056` [performance] Testar comportamento offline para performance antes da implementação.
+- [ ] `RA-057` [accessibility] Testar limites operacionais para accessibility antes da implementação.
+- [ ] `RA-058` [documentation] Testar compatibilidade multiplataforma para documentation antes da implementação.
+- [ ] `RA-059` [sdk] Testar estratégia de rollback para sdk antes da implementação.
+- [ ] `RA-060` [cli] Testar fixtures públicas mínimas para cli antes da implementação.
+- [ ] `RA-061` [desktop] Testar critérios de aceite para desktop antes da implementação.
+- [ ] `RA-062` [developer-experience] Testar integridade de provenance para developer experience antes da implementação.
+- [ ] `RA-063` [infrastructure] Testar contratos versionados para infrastructure antes da implementação.
+- [ ] `RA-064` [data-sources] Medir casos de erro para data sources antes da implementação.
+- [ ] `RA-065` [ingestion] Medir mensagens em PT-BR para ingestion antes da implementação.
+- [ ] `RA-066` [parsers] Medir comportamento offline para parsers antes da implementação.
+- [ ] `RA-067` [data-quality] Medir limites operacionais para data quality antes da implementação.
+- [ ] `RA-068` [database] Medir compatibilidade multiplataforma para database antes da implementação.
+- [ ] `RA-069` [search] Medir estratégia de rollback para search antes da implementação.
+- [ ] `RA-070` [api] Medir fixtures públicas mínimas para api antes da implementação.
+- [ ] `RA-071` [frontend] Medir critérios de aceite para frontend antes da implementação.
+- [ ] `RA-072` [history] Medir integridade de provenance para history antes da implementação.
+- [ ] `RA-073` [analytics] Medir contratos versionados para analytics antes da implementação.
+- [ ] `RA-074` [security] Medir casos de erro para security antes da implementação.
+- [ ] `RA-075` [observability] Medir mensagens em PT-BR para observability antes da implementação.
+- [ ] `RA-076` [testing] Medir comportamento offline para testing antes da implementação.
+- [ ] `RA-077` [performance] Medir limites operacionais para performance antes da implementação.
+- [ ] `RA-078` [accessibility] Medir compatibilidade multiplataforma para accessibility antes da implementação.
+- [ ] `RA-079` [documentation] Medir estratégia de rollback para documentation antes da implementação.
+- [ ] `RA-080` [sdk] Medir fixtures públicas mínimas para sdk antes da implementação.
+- [ ] `RA-081` [cli] Medir critérios de aceite para cli antes da implementação.
+- [ ] `RA-082` [desktop] Medir integridade de provenance para desktop antes da implementação.
+- [ ] `RA-083` [developer-experience] Medir contratos versionados para developer experience antes da implementação.
+- [ ] `RA-084` [infrastructure] Medir casos de erro para infrastructure antes da implementação.
+- [ ] `RA-085` [data-sources] Revisar mensagens em PT-BR para data sources antes da implementação.
+- [ ] `RA-086` [ingestion] Revisar comportamento offline para ingestion antes da implementação.
+- [ ] `RA-087` [parsers] Revisar limites operacionais para parsers antes da implementação.
+- [ ] `RA-088` [data-quality] Revisar compatibilidade multiplataforma para data quality antes da implementação.
+- [ ] `RA-089` [database] Revisar estratégia de rollback para database antes da implementação.
+- [ ] `RA-090` [search] Revisar fixtures públicas mínimas para search antes da implementação.
+- [ ] `RA-091` [api] Revisar critérios de aceite para api antes da implementação.
+- [ ] `RA-092` [frontend] Revisar integridade de provenance para frontend antes da implementação.
+- [ ] `RA-093` [history] Revisar contratos versionados para history antes da implementação.
+- [ ] `RA-094` [analytics] Revisar casos de erro para analytics antes da implementação.
+- [ ] `RA-095` [security] Revisar mensagens em PT-BR para security antes da implementação.
+- [ ] `RA-096` [observability] Revisar comportamento offline para observability antes da implementação.
+- [ ] `RA-097` [testing] Revisar limites operacionais para testing antes da implementação.
+- [ ] `RA-098` [performance] Revisar compatibilidade multiplataforma para performance antes da implementação.
+- [ ] `RA-099` [accessibility] Revisar estratégia de rollback para accessibility antes da implementação.
+- [ ] `RA-100` [documentation] Revisar fixtures públicas mínimas para documentation antes da implementação.
+- [ ] `RA-101` [sdk] Revisar critérios de aceite para sdk antes da implementação.
+- [ ] `RA-102` [cli] Revisar integridade de provenance para cli antes da implementação.
+- [ ] `RA-103` [desktop] Revisar contratos versionados para desktop antes da implementação.
+- [ ] `RA-104` [developer-experience] Revisar casos de erro para developer experience antes da implementação.
+- [ ] `RA-105` [infrastructure] Revisar mensagens em PT-BR para infrastructure antes da implementação.
+- [ ] `RA-106` [data-sources] Prototipar comportamento offline para data sources antes da implementação.
+- [ ] `RA-107` [ingestion] Prototipar limites operacionais para ingestion antes da implementação.
+- [ ] `RA-108` [parsers] Prototipar compatibilidade multiplataforma para parsers antes da implementação.
+- [ ] `RA-109` [data-quality] Prototipar estratégia de rollback para data quality antes da implementação.
+- [ ] `RA-110` [database] Prototipar fixtures públicas mínimas para database antes da implementação.
+- [ ] `RA-111` [search] Prototipar critérios de aceite para search antes da implementação.
+- [ ] `RA-112` [api] Prototipar integridade de provenance para api antes da implementação.
+- [ ] `RA-113` [frontend] Prototipar contratos versionados para frontend antes da implementação.
+- [ ] `RA-114` [history] Prototipar casos de erro para history antes da implementação.
+- [ ] `RA-115` [analytics] Prototipar mensagens em PT-BR para analytics antes da implementação.
+- [ ] `RA-116` [security] Prototipar comportamento offline para security antes da implementação.
+- [ ] `RA-117` [observability] Prototipar limites operacionais para observability antes da implementação.
+- [ ] `RA-118` [testing] Prototipar compatibilidade multiplataforma para testing antes da implementação.
+- [ ] `RA-119` [performance] Prototipar estratégia de rollback para performance antes da implementação.
+- [ ] `RA-120` [accessibility] Prototipar fixtures públicas mínimas para accessibility antes da implementação.
+- [ ] `RA-121` [documentation] Prototipar critérios de aceite para documentation antes da implementação.
+- [ ] `RA-122` [sdk] Prototipar integridade de provenance para sdk antes da implementação.
+- [ ] `RA-123` [cli] Prototipar contratos versionados para cli antes da implementação.
+- [ ] `RA-124` [desktop] Prototipar casos de erro para desktop antes da implementação.
+- [ ] `RA-125` [developer-experience] Prototipar mensagens em PT-BR para developer experience antes da implementação.
+- [ ] `RA-126` [infrastructure] Prototipar comportamento offline para infrastructure antes da implementação.
+- [ ] `RA-127` [data-sources] Implementar limites operacionais para data sources antes da implementação.
+- [ ] `RA-128` [ingestion] Implementar compatibilidade multiplataforma para ingestion antes da implementação.
+- [ ] `RA-129` [parsers] Implementar estratégia de rollback para parsers antes da implementação.
+- [ ] `RA-130` [data-quality] Implementar fixtures públicas mínimas para data quality antes da implementação.
+- [ ] `RA-131` [database] Implementar critérios de aceite para database antes da implementação.
+- [ ] `RA-132` [search] Implementar integridade de provenance para search antes da implementação.
+- [ ] `RA-133` [api] Implementar contratos versionados para api antes da implementação.
+- [ ] `RA-134` [frontend] Implementar casos de erro para frontend antes da implementação.
+- [ ] `RA-135` [history] Implementar mensagens em PT-BR para history antes da implementação.
+- [ ] `RA-136` [analytics] Implementar comportamento offline para analytics antes da implementação.
+- [ ] `RA-137` [security] Implementar limites operacionais para security antes da implementação.
+- [ ] `RA-138` [observability] Implementar compatibilidade multiplataforma para observability antes da implementação.
+- [ ] `RA-139` [testing] Implementar estratégia de rollback para testing antes da implementação.
+- [ ] `RA-140` [performance] Implementar fixtures públicas mínimas para performance antes da implementação.
+- [ ] `RA-141` [accessibility] Implementar critérios de aceite para accessibility antes da implementação.
+- [ ] `RA-142` [documentation] Implementar integridade de provenance para documentation antes da implementação.
+- [ ] `RA-143` [sdk] Implementar contratos versionados para sdk antes da implementação.
+- [ ] `RA-144` [cli] Implementar casos de erro para cli antes da implementação.
+- [ ] `RA-145` [desktop] Implementar mensagens em PT-BR para desktop antes da implementação.
+- [ ] `RA-146` [developer-experience] Implementar comportamento offline para developer experience antes da implementação.
+- [ ] `RA-147` [infrastructure] Implementar limites operacionais para infrastructure antes da implementação.
+- [ ] `RA-148` [data-sources] Comparar compatibilidade multiplataforma para data sources antes da implementação.
+- [ ] `RA-149` [ingestion] Comparar estratégia de rollback para ingestion antes da implementação.
+- [ ] `RA-150` [parsers] Comparar fixtures públicas mínimas para parsers antes da implementação.
+- [ ] `RA-151` [data-quality] Comparar critérios de aceite para data quality antes da implementação.
+- [ ] `RA-152` [database] Comparar integridade de provenance para database antes da implementação.
+- [ ] `RA-153` [search] Comparar contratos versionados para search antes da implementação.
+- [ ] `RA-154` [api] Comparar casos de erro para api antes da implementação.
+- [ ] `RA-155` [frontend] Comparar mensagens em PT-BR para frontend antes da implementação.
+- [ ] `RA-156` [history] Comparar comportamento offline para history antes da implementação.
+- [ ] `RA-157` [analytics] Comparar limites operacionais para analytics antes da implementação.
+- [ ] `RA-158` [security] Comparar compatibilidade multiplataforma para security antes da implementação.
+- [ ] `RA-159` [observability] Comparar estratégia de rollback para observability antes da implementação.
+- [ ] `RA-160` [testing] Comparar fixtures públicas mínimas para testing antes da implementação.
+- [ ] `RA-161` [performance] Comparar critérios de aceite para performance antes da implementação.
+- [ ] `RA-162` [accessibility] Comparar integridade de provenance para accessibility antes da implementação.
+- [ ] `RA-163` [documentation] Comparar contratos versionados para documentation antes da implementação.
+- [ ] `RA-164` [sdk] Comparar casos de erro para sdk antes da implementação.
+- [ ] `RA-165` [cli] Comparar mensagens em PT-BR para cli antes da implementação.
+- [ ] `RA-166` [desktop] Comparar comportamento offline para desktop antes da implementação.
+- [ ] `RA-167` [developer-experience] Comparar limites operacionais para developer experience antes da implementação.
+- [ ] `RA-168` [infrastructure] Comparar compatibilidade multiplataforma para infrastructure antes da implementação.
+- [ ] `RA-169` [data-sources] Automatizar estratégia de rollback para data sources antes da implementação.
+- [ ] `RA-170` [ingestion] Automatizar fixtures públicas mínimas para ingestion antes da implementação.
+- [ ] `RA-171` [parsers] Automatizar critérios de aceite para parsers antes da implementação.
+- [ ] `RA-172` [data-quality] Automatizar integridade de provenance para data quality antes da implementação.
+- [ ] `RA-173` [database] Automatizar contratos versionados para database antes da implementação.
+- [ ] `RA-174` [search] Automatizar casos de erro para search antes da implementação.
+- [ ] `RA-175` [api] Automatizar mensagens em PT-BR para api antes da implementação.
+- [ ] `RA-176` [frontend] Automatizar comportamento offline para frontend antes da implementação.
+- [ ] `RA-177` [history] Automatizar limites operacionais para history antes da implementação.
+- [ ] `RA-178` [analytics] Automatizar compatibilidade multiplataforma para analytics antes da implementação.
+- [ ] `RA-179` [security] Automatizar estratégia de rollback para security antes da implementação.
+- [ ] `RA-180` [observability] Automatizar fixtures públicas mínimas para observability antes da implementação.
+- [ ] `RA-181` [testing] Automatizar critérios de aceite para testing antes da implementação.
+- [ ] `RA-182` [performance] Automatizar integridade de provenance para performance antes da implementação.
+- [ ] `RA-183` [accessibility] Automatizar contratos versionados para accessibility antes da implementação.
+- [ ] `RA-184` [documentation] Automatizar casos de erro para documentation antes da implementação.
+- [ ] `RA-185` [sdk] Automatizar mensagens em PT-BR para sdk antes da implementação.
+- [ ] `RA-186` [cli] Automatizar comportamento offline para cli antes da implementação.
+- [ ] `RA-187` [desktop] Automatizar limites operacionais para desktop antes da implementação.
+- [ ] `RA-188` [developer-experience] Automatizar compatibilidade multiplataforma para developer experience antes da implementação.
+- [ ] `RA-189` [infrastructure] Automatizar estratégia de rollback para infrastructure antes da implementação.
+- [ ] `RA-190` [data-sources] Auditar fixtures públicas mínimas para data sources antes da implementação.
+- [ ] `RA-191` [ingestion] Auditar critérios de aceite para ingestion antes da implementação.
+- [ ] `RA-192` [parsers] Auditar integridade de provenance para parsers antes da implementação.
+- [ ] `RA-193` [data-quality] Auditar contratos versionados para data quality antes da implementação.
+- [ ] `RA-194` [database] Auditar casos de erro para database antes da implementação.
+- [ ] `RA-195` [search] Auditar mensagens em PT-BR para search antes da implementação.
+- [ ] `RA-196` [api] Auditar comportamento offline para api antes da implementação.
+- [ ] `RA-197` [frontend] Auditar limites operacionais para frontend antes da implementação.
+- [ ] `RA-198` [history] Auditar compatibilidade multiplataforma para history antes da implementação.
+- [ ] `RA-199` [analytics] Auditar estratégia de rollback para analytics antes da implementação.
+- [ ] `RA-200` [security] Auditar fixtures públicas mínimas para security antes da implementação.
+- [ ] `RA-201` [observability] Auditar critérios de aceite para observability antes da implementação.
+- [ ] `RA-202` [testing] Auditar integridade de provenance para testing antes da implementação.
+- [ ] `RA-203` [performance] Auditar contratos versionados para performance antes da implementação.
+- [ ] `RA-204` [accessibility] Auditar casos de erro para accessibility antes da implementação.
+- [ ] `RA-205` [documentation] Auditar mensagens em PT-BR para documentation antes da implementação.
+- [ ] `RA-206` [sdk] Auditar comportamento offline para sdk antes da implementação.
+- [ ] `RA-207` [cli] Auditar limites operacionais para cli antes da implementação.
+- [ ] `RA-208` [desktop] Auditar compatibilidade multiplataforma para desktop antes da implementação.
+- [ ] `RA-209` [developer-experience] Auditar estratégia de rollback para developer experience antes da implementação.
+- [ ] `RA-210` [infrastructure] Auditar fixtures públicas mínimas para infrastructure antes da implementação.
