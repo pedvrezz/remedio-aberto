@@ -1,0 +1,52 @@
+[project]
+name = "remedio-aberto-api"
+version = "0.1.0"
+description = "API local-first do Remédio Aberto"
+requires-python = ">=3.12"
+dependencies = [
+  "aiosqlite==0.21.0",
+  "fastapi==0.116.1",
+  "pydantic-settings==2.10.1",
+  "sqlalchemy==2.0.43",
+  "uvicorn==0.35.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx==0.28.1",
+  "mypy==1.17.1",
+  "pytest==8.4.1",
+  "pytest-asyncio==1.1.0",
+  "pytest-cov==6.2.1",
+  "ruff==0.12.9",
+]
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["remedio_aberto*"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "W"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["remedio_aberto"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.coverage.run]
+source = ["remedio_aberto"]
+
+[tool.coverage.report]
+fail_under = 85
+show_missing = true

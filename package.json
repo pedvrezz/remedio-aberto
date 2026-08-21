@@ -1,0 +1,19 @@
+{
+  "name": "remedio-aberto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Consulta local-first de dados públicos oficiais sobre medicamentos",
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=@remedio-aberto/web",
+    "build": "npm run build --workspace=@remedio-aberto/web",
+    "lint": "npm run lint --workspace=@remedio-aberto/web",
+    "typecheck": "npm run typecheck --workspace=@remedio-aberto/web",
+    "test": "npm run test --workspace=@remedio-aberto/web",
+    "audit:prod": "npm audit --omit=dev --audit-level=high"
+  },
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=10.0.0"
+  }
+}
