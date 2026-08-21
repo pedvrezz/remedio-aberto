@@ -1,4 +1,4 @@
-.PHONY: setup dev stop check test lint typecheck build source-check data-fetch
+.PHONY: setup dev stop check test lint typecheck build source-check data-fetch data-analyze
 
 setup:
 	python3 -m venv .venv
@@ -26,3 +26,5 @@ source-check:
 	.venv/bin/python -m remedio_aberto.source_cli check
 data-fetch:
 	.venv/bin/python -m remedio_aberto.source_cli fetch
+data-analyze:
+	.venv/bin/python -m remedio_aberto.source_cli analyze

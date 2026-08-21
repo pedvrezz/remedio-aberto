@@ -15,7 +15,7 @@
 3. [x] Implementar aquisição responsável, checksum e cache.
 4. [x] Criar schema, parser e fixtures públicas pequenas.
 5. [x] Normalizar conservadoramente, deduplicar estruturalmente e persistir de modo idempotente.
-6. [ ] Analisar qualidade, identidade candidata e unidade documental sem inferência regulatória.
+6. [x] Analisar qualidade, identidade candidata e unidade documental sem inferência regulatória.
 7. [ ] Implementar camada interna de leitura baseada em evidência.
 8. [ ] Expor busca simples e detalhe versionados com provenance.
 9. [ ] Mostrar o dado no frontend, deixando ausências explícitas.

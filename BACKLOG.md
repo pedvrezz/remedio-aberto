@@ -4,7 +4,7 @@ Este backlog contém apenas trabalho real, ordenado e verificável. Cada item de
 
 ## P0 — sequência ativa da Fase 1
 
-- [ ] `RA-001` [data-quality] Medir qualidade do snapshot ANVISA: padrões de registro/processo, datas, cardinalidades, nulidade e duplicidades. Entrega: relatório reproduzível, sem alterar schema ou interpretar significado regulatório.
+- [x] `RA-001` [data-quality] Medir qualidade do snapshot ANVISA: padrões de registro/processo, datas, cardinalidades, nulidade e duplicidades. Entrega: relatório reproduzível, sem alterar schema ou interpretar significado regulatório.
 - [ ] `RA-002` [architecture] Propor unidade documental e contrato de leitura com base no relatório de qualidade. `HUMAN` se a proposta mudar identidade, deduplicação persistida ou interpretação de campo oficial.
 - [ ] `RA-003` [api] Implementar camada interna de leitura somente após contrato aceito, preservando provenance e valores brutos.
 - [ ] `RA-004` [api] Expor endpoints versionados de busca e detalhe, com paginação, limites, erros PT-BR e testes offline.

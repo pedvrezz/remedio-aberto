@@ -6,22 +6,29 @@ from dataclasses import asdict
 from pathlib import Path
 
 from remedio_aberto.anvisa_medicines import fetch_and_persist, fetch_artifact, parse_csv
+from remedio_aberto.anvisa_quality import write_analysis
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Coleta manual segura da fonte ANVISA de medicamentos"
     )
-    parser.add_argument("command", choices=("check", "fetch"))
+    parser.add_argument("command", choices=("check", "fetch", "analyze"))
     parser.add_argument("--cache-dir", type=Path, default=Path("data/cache/anvisa/medicamentos"))
     parser.add_argument("--database", type=Path, default=Path("data/remedio-aberto.sqlite"))
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=Path("data/reports/anvisa-quality.json"),
+        help="destino local do relatório JSON para o comando analyze",
+    )
     args = parser.parse_args()
 
     if args.command == "check":
         artifact = fetch_artifact(args.cache_dir)
         encoding, rows = parse_csv(Path(artifact.cache_path))
         result = {**asdict(artifact), "encoding": encoding, "delimiter": ";", "records": len(rows)}
-    else:
+    elif args.command == "fetch":
         imported = fetch_and_persist(args.cache_dir, args.database)
         result = {
             **asdict(imported.artifact),
@@ -30,6 +37,9 @@ def main() -> int:
             "already_imported": imported.already_imported,
             "database": str(args.database),
         }
+    else:
+        result = write_analysis(args.database, args.output)
+        result["output"] = str(args.output)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

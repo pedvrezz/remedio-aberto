@@ -2,7 +2,11 @@
 
 > **Última atualização:** 2026-08-21 (UTC)
 > **Versão do schema:** 1
-> **Ciclo autopilot:** 0 (política criada, primeira execução)
+> **Ciclo autopilot:** 1 concluído; ciclo 2 em andamento
+
+## Tarefa Atual
+
+`RA-001` — medir qualidade do snapshot ANVISA com relatório reproduzível, sem alterar schema nem interpretar significado regulatório.
 
 ---
 
