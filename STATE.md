@@ -7,7 +7,8 @@
 - Progresso do milestone Git em `main`: 10/500 commits antes de `RA-002`; próximo marco 50
 - Branch de trabalho: `feat/ra-002-reading-contract`
 - HEAD funcional anterior em `main`: `729a0f6` (`chore: configure persistent Kanban workflow`)
-- Árvore esperada: merge de `main` e alterações apenas de `RA-002`
+- HEAD funcional da entrega: `81669fc` (inclui `708db52`, `docs: define internal ANVISA reading contract`)
+- Árvore esperada: alterações apenas do registro final de estado/log
 
 ## Tarefa atual concluída localmente
 
@@ -21,7 +22,9 @@ Entregas:
 - domínios literais, provenance e `NULL` explícito são obrigatórios;
 - nenhuma alteração de schema, dado persistido ou significado regulatório;
 
-Commit e CI: serão registrados no log do ciclo após push e verificação remota.
+Commit: `708db52` (`docs: define internal ANVISA reading contract`), integrado ao `HEAD` `81669fc` após sincronização com `main`.
+
+CI de `RA-002`: sucesso — <https://github.com/pedvrezz/remedio-aberto/actions/runs/32524082241>
 
 CI anterior (`RA-001`): sucesso — <https://github.com/pedvrezz/remedio-aberto/actions/runs/32519334180>
 
