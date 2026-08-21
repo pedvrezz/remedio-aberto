@@ -42,3 +42,7 @@ Cada etapa será introduzida com testes e somente após validação jurídica/t�
 ## Persistência
 
 O SQLite contém `source_artifacts` e `anvisa_medicines`, criadas transacionalmente pelo fluxo local de ingestão. O artefato bruto e o banco ficam em `data/`, ignorado pelo Git. Ainda não existe migration de domínio nem contrato público de medicamentos; qualquer mudança de identidade, unidade documental ou interpretação de campo exige análise e, quando material, decisão humana registrada.
+
+## Contrato interno de leitura
+
+O contrato aceito para a futura camada interna está em `docs/internal-reading-contract.md`. Ele trata cada linha estrutural persistida como registro documental do snapshot e usa `artifact_sha256 + row_hash` somente como identidade técnica. Identificadores e datas permanecem textos opcionais e brutos; domínios são literais; provenance e `NULL` explícito são obrigatórios. O contrato não altera schema, deduplicação persistida nem interpretação regulatória e não autoriza exposição pública.

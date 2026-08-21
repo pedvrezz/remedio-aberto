@@ -2,26 +2,26 @@
 
 - Atualizado em: 2026-08-21 UTC
 - Schema persistido: 1 (inalterado)
-- Ciclos autônomos concluídos: 2
-- Branch: `main`
-- HEAD funcional: `a6601ae` (`feat: analyze ANVISA snapshot quality`)
-- Árvore esperada: alterações apenas deste registro de estado/log até o próximo commit
+- Ciclos autônomos concluídos: 3
+- Branch de trabalho: `feat/ra-002-reading-contract`
+- HEAD funcional anterior: `a6601ae` (`feat: analyze ANVISA snapshot quality`)
+- Árvore esperada: alterações apenas de `RA-002` até o commit do ciclo
 
-## Última tarefa concluída
+## Tarefa atual concluída localmente
 
-`RA-001` — análise reproduzível da qualidade do snapshot ANVISA.
+`RA-002` — contrato interno de leitura do snapshot ANVISA.
 
 Entregas:
 
-- `make data-analyze` gera `data/reports/anvisa-quality.json` local e ignorado;
-- mede identificadores, coocorrência, datas, domínios, nulidade e duplicidade física;
-- relatório interpretativo em `docs/anvisa-quality-analysis.md`;
+- `docs/internal-reading-contract.md` define cada linha estrutural como registro documental do snapshot;
+- `artifact_sha256 + row_hash` permanece identidade exclusivamente técnica;
+- identificadores e datas permanecem textos opcionais/brutos;
+- domínios literais, provenance e `NULL` explícito são obrigatórios;
 - nenhuma alteração de schema, dado persistido ou significado regulatório;
-- 19 testes Python e 2 frontend; cobertura Python 92%.
 
-Commit: `a6601ae`
+Commit e CI: serão registrados no log do ciclo após push e verificação remota.
 
-CI: sucesso — <https://github.com/pedvrezz/remedio-aberto/actions/runs/32519334180>
+CI anterior (`RA-001`): sucesso — <https://github.com/pedvrezz/remedio-aberto/actions/runs/32519334180>
 
 ## Gates conhecidos
 
@@ -38,7 +38,7 @@ CI: sucesso — <https://github.com/pedvrezz/remedio-aberto/actions/runs/3251933
 
 ## Próxima tarefa segura
 
-`RA-002` — registrar contrato interno de leitura para tratar cada linha estrutural como registro documental do snapshot, sem identidade regulatória canônica, sem alteração de schema e sem exposição pública. Depois, se o contrato mantiver esses limites, executar `RA-003` com testes.
+`RA-003` — implementar, com TDD, a camada interna de leitura conforme `docs/internal-reading-contract.md`, sem alteração de schema nem exposição pública.
 
 ## Bloqueios e decisões pendentes
 
@@ -62,4 +62,4 @@ CI: sucesso — <https://github.com/pedvrezz/remedio-aberto/actions/runs/3251933
 1. Confirmar `pwd` e `git status`.
 2. Ler `AUTOPILOT.md`, este arquivo e o backlog.
 3. Se houver alteração não compreendida ou CI vermelha, parar.
-4. Continuar por `RA-002`; não avançar identidade/modelo sem decisão humana.
+4. Continuar por `RA-003`; não avançar identidade/modelo sem decisão humana.
