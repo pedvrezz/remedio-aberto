@@ -10,13 +10,15 @@
 
 ## Fase 1 — uma fonte, um fluxo ponta a ponta
 
-1. Validar oficialmente uma única fonte pequena ou recorte controlado.
-2. Registrar condições de uso e evidências de legitimidade.
-3. Implementar aquisição responsável, checksum e cache.
-4. Criar schema versionado, parser e fixtures públicas pequenas.
-5. Normalizar, deduplicar e persistir de modo idempotente.
-6. Expor busca simples e detalhe com provenance.
-7. Mostrar o dado no frontend, deixando ausências explícitas.
+1. [x] Validar oficialmente uma única fonte pequena ou recorte controlado.
+2. [x] Registrar condições de uso e evidências de legitimidade, preservando ambiguidades.
+3. [x] Implementar aquisição responsável, checksum e cache.
+4. [x] Criar schema, parser e fixtures públicas pequenas.
+5. [x] Normalizar conservadoramente, deduplicar estruturalmente e persistir de modo idempotente.
+6. [ ] Analisar qualidade, identidade candidata e unidade documental sem inferência regulatória.
+7. [ ] Implementar camada interna de leitura baseada em evidência.
+8. [ ] Expor busca simples e detalhe versionados com provenance.
+9. [ ] Mostrar o dado no frontend, deixando ausências explícitas.
 
 ## Fase 2 — pesquisa e qualidade
 
