@@ -79,12 +79,14 @@ downloads/
 *.gz
 *.xlsx
 *.csv
+!apps/api/tests/fixtures/*.csv
 *.jsonl
 
 # Secrets and credentials
 *.pem
 *.key
 *.crt
+!apps/api/remedio_aberto/certs/*.pem
 *.p12
 *.pfx
 secrets/

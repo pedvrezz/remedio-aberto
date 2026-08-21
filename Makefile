@@ -1,4 +1,4 @@
-.PHONY: setup dev stop check test lint typecheck build
+.PHONY: setup dev stop check test lint typecheck build source-check data-fetch
 
 setup:
 	python3 -m venv .venv
@@ -22,3 +22,7 @@ build:
 	npm run build
 check: lint typecheck test build
 	npm audit --audit-level=high
+source-check:
+	.venv/bin/python -m remedio_aberto.source_cli check
+data-fetch:
+	.venv/bin/python -m remedio_aberto.source_cli fetch
