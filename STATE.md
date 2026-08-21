@@ -3,9 +3,11 @@
 - Atualizado em: 2026-08-21 UTC
 - Schema persistido: 1 (inalterado)
 - Ciclos autônomos concluídos: 3
+- Automação persistente: board Hermes `remedio-aberto`, dispatcher no Gateway user-scoped
+- Progresso do milestone Git em `main`: 10/500 commits antes de `RA-002`; próximo marco 50
 - Branch de trabalho: `feat/ra-002-reading-contract`
-- HEAD funcional anterior: `a6601ae` (`feat: analyze ANVISA snapshot quality`)
-- Árvore esperada: alterações apenas de `RA-002` até o commit do ciclo
+- HEAD funcional anterior em `main`: `729a0f6` (`chore: configure persistent Kanban workflow`)
+- Árvore esperada: merge de `main` e alterações apenas de `RA-002`
 
 ## Tarefa atual concluída localmente
 
